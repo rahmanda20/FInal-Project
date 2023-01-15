@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuProfile">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btnmenu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/btn_menu"
+        android:onClick="btnmenu"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle9"
+       android:layout_marginLeft="140dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/img_profile"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgprofil"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/rct_profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rct_profile"
+        android:text="RIZKI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_nama"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rct_profile"
+        android:text="Pekanbaru, Riau"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="12sp"
+        android:textColor="@color/abu_muda"
+        android:id="@+id/txt_wilayah"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rct_profile"
+        android:text="Tempat Yang Baru Dikunjungi"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="95dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="12sp"
+        android:textColor="@color/abu_muda"
+        android:id="@+id/txt_menuprofile"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hotel"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="355dp"
+        android:id="@+id/img_hotel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_hotel"
+        android:text="Disarankan"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="12sp"
+        android:textColor="@color/abu_muda"
+        android:id="@+id/txt_menuprofile2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hotel2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="480dp"
+        android:id="@+id/img_hotel2"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

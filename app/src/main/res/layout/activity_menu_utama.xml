@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MenuUtama">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btnmenu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/btn_menu1"
+        android:onClick="btnmenu1" />
+
+    <ImageView
+        android:id="@+id/btn_profile"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="64dp"
+        android:paddingLeft="340dp"
+        android:src="@drawable/profile"
+        android:onClick="profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/btn_profile"
+        android:padding="15dp"
+        android:id="@+id/menu_utama">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape2"
+            android:hint="Find Location"
+            android:paddingLeft="12dp"
+            android:backgroundTint="@color/abu"
+            android:id="@+id/edt_location"
+            android:textSize="13sp"
+            android:fontFamily="@font/poppinsregular"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="330dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/ic_search"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="190dp"
+        android:id="@+id/btn_menu_car"
+        android:onClick="btncar"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/car"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="220dp"
+        android:id="@+id/img_car"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAR"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="14sp"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="35dp"
+        android:textColor="@color/tosca"
+        android:id="@+id/txt_car"
+        android:layout_below="@+id/img_car"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="120dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="190dp"
+        android:id="@+id/btn_menu_bike"
+        android:onClick="btnbike"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bike"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="135dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="206dp"
+        android:id="@+id/img_bike"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIKE"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="14sp"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="146dp"
+        android:textColor="@color/abu_muda"
+        android:id="@+id/txt_bike"
+        android:layout_below="@+id/img_bike"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="220dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="190dp"
+        android:id="@+id/btn_menu_bus"
+        android:onClick="btnbus"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bus"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="236dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="215dp"
+        android:id="@+id/img_bus"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUS"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="14sp"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="246dp"
+        android:textColor="@color/abu_muda"
+        android:id="@+id/txt_bus"
+        android:layout_below="@+id/img_bus"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="320dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="190dp"
+        android:id="@+id/btn_menu_van"
+        android:onClick="btnvan"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/van"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="340dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="210dp"
+        android:id="@+id/img_van"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VAN"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="14sp"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="345dp"
+        android:textColor="@color/abu_muda"
+        android:id="@+id/txt_van"
+        android:layout_below="@+id/img_van"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/van"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="340dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="210dp"
+        android:id="@+id/rect_menu_utama"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/menu_utama"
+        android:layout_marginTop="260dp"
+        android:id="@+id/rect_menu_utama_2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1  result found"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="14sp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="150dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_result_found"
+        android:layout_below="@+id/img_van"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Premier Hotel"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="14sp"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="140dp"
+        android:textColor="@color/tosca"
+        android:id="@+id/txt_the_premier"
+        android:layout_below="@+id/img_van"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imghotel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="40dp"
+        android:layout_below="@+id/txt_the_premier"
+        android:layout_marginTop="340dp"
+        android:id="@+id/img_hotel"
+        />
+
+    <TextView
+        android:id="@+id/txt_hotel"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/txt_the_premier"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="143dp"
+        android:text="Merupakan hotel bintang 5 yang menyediakan tempat parkiran yang sangat luas untuk pelanggan nya.
+silahkan dipilih area yang diinginkan"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txt_rating"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/txt_hotel"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="143dp"
+        android:text="Rating"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_rating2"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/txt_hotel"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="185dp"
+        android:text="9.5%"
+        android:textColor="@color/biru"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ratings"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="242dp"
+        android:layout_below="@+id/txt_the_premier"
+        android:layout_marginTop="417dp"
+        android:id="@+id/img_rating"
+        />
+
+    <TextView
+        android:id="@+id/txt_slot"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/img_rating"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:text="Tersedia 106 slot "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/suggestsimilar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="40dp"
+        android:layout_below="@+id/txt_the_premier"
+        android:layout_marginTop="510dp"
+        android:id="@+id/img_hotel3"
+        />
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_hotel3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:width="300dp"
+        android:backgroundTint="#50C2C9"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Booking Now"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="13sp"
+        app:cornerRadius="100dp"
+        tools:ignore="NotSibling"
+        android:onClick="btnhotel"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu_utama"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="1dp"
+        app:srcCompat="@drawable/profile" />
+
+
+</RelativeLayout>

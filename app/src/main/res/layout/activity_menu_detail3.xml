@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OnBoarding1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/headings"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/img_search"
+        android:onClick="back1"/>
+
+    <TextView
+        android:id="@+id/txt_ringkasan_reservasi"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:text="Directions"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maps"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/img_maps"
+        android:onClick="back1"/>
+
+
+    <ImageView
+        android:id="@+id/img_rute"
+        android:layout_width="278dp"
+        android:layout_height="284dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="65dp"
+        android:onClick="back1"
+        android:src="@drawable/rute" />
+
+    <ImageView
+        android:id="@+id/img_rute2"
+        android:layout_width="wrap_content"
+        android:layout_height="304dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="back1"
+        android:src="@drawable/rute2" />
+
+
+</RelativeLayout>

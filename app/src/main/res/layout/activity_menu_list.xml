@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OnBoarding1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/headings"
+        android:layout_alignParentTop="true"
+       android:layout_marginLeft="20dp"
+        android:layout_marginTop="167dp"
+        android:id="@+id/img_search"
+        android:onClick="back"/>
+
+    <TextView
+        android:id="@+id/txt_pilih_lantai_parkir"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/img_1"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="150dp"
+        android:text="Pilih Lantai Parkir "
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+//*//
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle316"
+        android:layout_below="@+id/img_1"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/rect_316"
+        android:onClick="basementparking"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_basement"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="210dp"
+        android:id="@+id/img_basement"/>
+
+    <TextView
+        android:id="@+id/txt_basement_parking"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/txt_pilih_lantai_parkir"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="120dp"
+        android:layout_marginTop="-10dp"
+        android:text="Basement Parking"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_20_available"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/txt_basement_parking"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:layout_marginTop="-40dp"
+        android:text="20 Available"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_harga"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/txt_pilih_lantai_parkir"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="260dp"
+        android:layout_marginTop="-5dp"
+        android:text="Rp.10.000/hr"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+
+//**//
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle316"
+        android:layout_below="@+id/rect_316"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/rect_2"
+        android:onClick="groundparking"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_basement"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="270dp"
+        android:id="@+id/img_basement2"
+        android:layout_below="@+id/rect_316"/>
+
+    <TextView
+        android:id="@+id/txt_basement_parking2"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_316"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="120dp"
+        android:layout_marginTop="18dp"
+        android:text="Ground Parking"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_20_available2"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_316"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:layout_marginTop="35dp"
+        android:text="20 Available"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_harga2"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_316"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="260dp"
+        android:layout_marginTop="25dp"
+        android:text="Rp.5.000/hr"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    //***//
+
+    <ImageView
+        android:id="@+id/rect_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/rectangle316"
+        android:onClick="parkparking"/>
+
+    <ImageView
+        android:id="@+id/img_basement3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="397dp"
+        android:src="@drawable/img_basement" />
+
+    <TextView
+        android:id="@+id/txt_basement_parking3"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_2"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="120dp"
+        android:layout_marginTop="18dp"
+        android:text="Lobby Parking"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_20_available3"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_2"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:layout_marginTop="35dp"
+        android:text="20 Available"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_harga3"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_2"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="260dp"
+        android:layout_marginTop="25dp"
+        android:text="Rp.7.000/hr"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+//****//
+    <ImageView
+        android:id="@+id/rect_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="325dp"
+        android:src="@drawable/rectangle316"
+        android:onClick="lobbyparking"/>
+
+    <ImageView
+        android:id="@+id/img_basement4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="331dp"
+        android:src="@drawable/img_basement" />
+
+    <TextView
+        android:id="@+id/txt_basement_parking4"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_3"
+        android:layout_marginTop="-48dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="120dp"
+        android:text="Park Parking"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_20_available4"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_3"
+        android:layout_marginTop="-27dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:text="20 Available"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_harga4"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_3"
+        android:layout_marginTop="-36dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="260dp"
+        android:text="Rp.10.000/hr"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+//*****//
+    <ImageView
+        android:id="@+id/rect_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="459dp"
+        android:src="@drawable/rectangle316"
+        android:onClick="basementparking2"/>
+
+    <ImageView
+        android:id="@+id/img_basement5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="468dp"
+        android:src="@drawable/img_basement" />
+
+    <TextView
+        android:id="@+id/txt_basement_parking5"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_4"
+        android:layout_marginTop="95dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="120dp"
+        android:text="Basement Parking"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_20_available5"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_4"
+        android:layout_marginTop="114dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:text="20 Available"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    //******//
+
+    <TextView
+        android:id="@+id/txt_harga6"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_5"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="260dp"
+        android:text="Rp.10.000/hr"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/rect_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="522dp"
+        android:src="@drawable/rectangle316"
+        android:onClick="basementparking3"/>
+
+    <ImageView
+        android:id="@+id/img_basement6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="531dp"
+        android:src="@drawable/img_basement" />
+
+    <TextView
+        android:id="@+id/txt_basement_parking6"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_5"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="120dp"
+        android:text="Basement Parking"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_20_available6"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_5"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:text="20 Available"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_harga5"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_4"
+        android:layout_marginTop="101dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="260dp"
+        android:text="Rp.10.000/hr"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    //*******//
+
+    <ImageView
+        android:id="@+id/rect_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="596dp"
+        android:src="@drawable/rectangle316"
+        android:onClick="basementparking4"/>
+
+    <ImageView
+        android:id="@+id/img_basement7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect_6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="606dp"
+        android:src="@drawable/img_basement" />
+
+    <TextView
+        android:id="@+id/txt_basement_parking7"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_6"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="120dp"
+        android:text="Basement Parking"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_20_available7"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_6"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="120dp"
+        android:text="20 Available"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_harga7"
+        android:layout_width="345dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/rect_6"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="260dp"
+        android:text="Rp.10.000/hr"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
